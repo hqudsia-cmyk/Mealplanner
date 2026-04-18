@@ -349,7 +349,6 @@ document.getElementById('modal-overlay').addEventListener('click', function(e) {
 
 // ─────────────────────────────────────────────
 //  FOOD SEARCH  — USDA FoodData Central API
-//  100% free, no signup needed, no credit card.
 //  Official US government food database.
 //  Covers all whole foods: apple, banana, milk, chicken etc.
 //  DEMO_KEY is built-in and works immediately.
