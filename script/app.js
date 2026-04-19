@@ -117,7 +117,7 @@ function buildDayColumn(dayName, dayIndex) {
   header.className = 'day-header';
   header.innerHTML = `
     <div class="day-name">${dayName}</div>
-    <div class="day-date">${getDayDate(dayIndex)}</div>
+    
   `;
   col.appendChild(header);
 
