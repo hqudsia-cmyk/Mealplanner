@@ -82,7 +82,7 @@ function loadPlan() {
 // Modal state — which day/meal is currently being edited
 let currentDay  = null;
 let currentMeal = null;
-let searchTimeout = null;
+
 
 
 // ─────────────────────────────────────────────
