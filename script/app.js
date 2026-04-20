@@ -117,6 +117,7 @@ function buildDayColumn(dayName, dayIndex) {
   header.className = 'day-header';
   header.innerHTML = `
     <div class="day-name">${dayName}</div>
+     <div class="day-date">${getDayDate(dayIndex)}</div>
   `;
   col.appendChild(header);
 
@@ -212,6 +213,7 @@ function buildDayTotals(dayIndex) {
 function rerenderDay(dayIndex) {
   const col = document.getElementById('day-col-' + dayIndex);
   const newCol = buildDayColumn(DAYS[dayIndex], dayIndex);
+  
 
   // Replace old column with freshly built one
   col.parentNode.replaceChild(newCol, col);
